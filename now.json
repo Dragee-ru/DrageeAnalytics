@@ -1,0 +1,20 @@
+{
+  "name": "Dragee Analytics",
+  "scope": "ponomarevstudio",
+  "builds": [
+    {
+      "src": "**.php",
+      "use": "now-php"
+    }
+  ],
+  "regions": [
+    "cdg1"
+  ],
+  "env": {
+    "ROOT": "/var/task/user",
+    "MYSQL_SERVER": "@dragee-mysql-server",
+    "MYSQL_USER": "@dragee-mysql-user",
+    "MYSQL_DB": "@dragee-mysql-db",
+    "MYSQL_PASS": "@dragee-mysql-password"
+  }
+}
