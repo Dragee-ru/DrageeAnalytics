@@ -7,6 +7,12 @@
       "use": "now-php"
     }
   ],
+  "routes": [
+    {
+      "src": "/collect",
+      "dest": "/collect.php"
+    }
+  ],
   "regions": [
     "cdg1"
   ],
