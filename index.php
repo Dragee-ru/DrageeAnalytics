@@ -8,7 +8,7 @@ $data = mysqli_fetch_assoc(DB::select('Analytics', ['*'], 'duration="day"'));
     <meta charset="UTF-8">
     <title>Аналитика активности Драже</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="refresh" content="60">
+    <meta http-equiv="refresh" content="10">
 </head>
 <body>
 <h1><span><?= $data['value'] ?></span><br>количество показов номеров<br>зафиксированых за последний день</h1>
