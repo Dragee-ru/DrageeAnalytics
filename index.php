@@ -11,7 +11,7 @@ $data = mysqli_fetch_assoc(DB::select('Analytics', ['*'], 'duration="day"'));
     <meta http-equiv="refresh" content="10">
 </head>
 <body>
-<h1><span><?= $data['value'] ?></span><br>количество показов номеров<br>зафиксированых за последний день</h1>
+<h1><span><?= $data['value'] ?></span><br>— количество показов номеров<br>зафиксированых за последний день</h1>
 <style>
     :root {
         font-family: Helvetica, sans-serif;
